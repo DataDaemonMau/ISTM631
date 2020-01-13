@@ -1,0 +1,15 @@
+'''
+    Author: Mauricio Guzman
+    Purpose: This program will use the math pow function to raise
+    two examples (x,y)to a given power as defined in variables x/y.
+'''
+
+# Import our pow function from the math module
+from math import pow
+
+# Use the pow function to raise a number to a given power:
+x = pow(8, 2)
+y = pow(5, 4)
+
+# Return the results
+print("The result of the first value example is: ", x, " \nThe result of the second value example is: ", y)
