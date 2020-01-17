@@ -1,0 +1,22 @@
+'''
+    Author: Mauricio Guzman
+    Purpose:
+    This program calculates and displays the value of a light year.
+'''
+
+# Import - none needed - scientific notation seems to be imported by default
+# will be using the format(number, formattype) function to format
+# the calculation into scientific notation
+
+# Store the value of a how fast a light beam travels in meters per second
+lightBeam = 3E8
+
+# Store the value of how many seconds there are in a year
+secPerYear = 3.1536E7
+
+# Calculate the value of a light year
+lightYear = lightBeam * secPerYear
+
+# Return the value of a light year formatted to scientific notation
+formattedLightYear = format(lightYear, "E")
+print("A light year is the distance a light beam travels in one year, \nand is equal to: ",formattedLightYear, "meters per year.")
